@@ -11,7 +11,7 @@ public class Shooting : MonoBehaviour
 
 	private void Start()
 	{
-		_activeBullet = Instantiate(_shiBullet);
+		SetBullet();
 	}
 
 	void Update()
@@ -25,7 +25,16 @@ public class Shooting : MonoBehaviour
 			Rigidbody2D rb = _activeBullet.GetComponent<Rigidbody2D>();
 			if (rb != null) rb.linearVelocity = Vector2.up * _speed; // ¡‚Ì’e‚ğËo
 
-			_activeBullet = Instantiate(_shiBullet, transform); // Ÿ‚Ì’e‚ğ€”õ‚·‚é
+			SetBullet(); // Ÿ‚Ì’e‚ğ€”õ‚·‚é
 		}
+	}
+
+	/// <summary>
+	/// ’e‚Ì•â[ŠÖ”
+	/// ‚P‚Â•ÏX‚·‚é‚¾‚¯‚Åg‚¦‚é‚æ‚¤‚ÉŠÖ”‰»
+	/// </summary>
+	void SetBullet()
+	{
+		_activeBullet = Instantiate(_shiBullet, transform);
 	}
 }
