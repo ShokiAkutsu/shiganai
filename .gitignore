@@ -97,3 +97,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+Assets/Plugins/Demigiant
+Assets/Resources/DOTweenSettings.asset
+Assets/images/Kake.png
+Assets/images/Mouhitotsu.png
+Assets/images/mouhitotsu_2.png
