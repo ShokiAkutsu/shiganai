@@ -4,7 +4,6 @@ using DG.Tweening;
 public class Bullet : MonoBehaviour
 {
 	Shooting _shoot;
-	//[SerializeField] float _speed = 2f;
 
 	void Start()
     {
