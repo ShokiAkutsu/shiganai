@@ -25,7 +25,7 @@ public class Shooting : MonoBehaviour
 			Rigidbody2D rb = _activeBullet.GetComponent<Rigidbody2D>();
 			if (rb != null) rb.linearVelocity = Vector2.up * _speed; // ¡‚Ì’e‚ğËo
 
-			_activeBullet = Instantiate(_shiBullet); // Ÿ‚Ì’e‚ğ€”õ‚·‚é
+			_activeBullet = Instantiate(_shiBullet, transform); // Ÿ‚Ì’e‚ğ€”õ‚·‚é
 		}
 	}
 }
