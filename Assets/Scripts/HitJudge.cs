@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class HitJudge : MonoBehaviour
 {
-	[SerializeField] CharacterDataSO _data; // 
+	[SerializeField] CharacterDataSO _data; // SO‚ª“ü‚Á‚Ä‚¢‚ê‚Î•ÏŠ·‚·‚é
 	bool _isHit = false; // Š¿Žš•ÏŠ·‚µ‚½‚çtrue
 
 	private void OnTriggerEnter2D(Collider2D collision)
@@ -14,7 +14,7 @@ public class HitJudge : MonoBehaviour
 
 			float diff = Mathf.DeltaAngle(currentZ, _data.MatchAngle);
 
-			if (Mathf.Abs(diff) < 1.0f && scaleX == _data.MatchScale)
+			if (Mathf.Abs(diff) < 1.0f && Mathf.Approximately(scaleX, _data.MatchScale))
 			{
 				_isHit = true;
 				
