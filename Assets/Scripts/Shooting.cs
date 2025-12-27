@@ -27,6 +27,15 @@ public class Shooting : MonoBehaviour
 
 			SetBullet(); // Ÿ‚Ì’e‚ğ€”õ‚·‚é
 		}
+
+		if(Input.GetKeyDown(KeyCode.Q))
+		{
+			_activeBullet.transform.Rotate(0, 0, 45f);
+		}
+		if (Input.GetKeyDown(KeyCode.E))
+		{
+			_activeBullet.transform.Rotate(0, 0, -45f);
+		}
 	}
 
 	/// <summary>

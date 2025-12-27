@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharacterDataSO", menuName = "Scriptable Objects/CharacterDataSO")]
 public class CharacterDataSO : ScriptableObject
 {
-	[SerializeField] Sprite _changeSprite; // isChange = false;‚È‚çİ’è‚µ‚È‚¢
+	[SerializeField] Sprite _changeSprite; // •ÏXŒã‚Ì•¶š‚ğŠi”[
 	[Header("”»’èğŒ")]
 	[SerializeField] float _matchAngle = 0f; 
 
