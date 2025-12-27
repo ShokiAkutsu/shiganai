@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f386782ea217c04ab84e186abd9e3bc, type: 3}
   m_Name: Shi_Defect
   m_EditorClassIdentifier: 
-  _changeSprite: {fileID: 295574278702365701, guid: 1b40f679937a2ac4f8a1e95fec9587ad, type: 3}
+  _changeSprite: {fileID: 4078953285760809138, guid: b5050063861000e42b97dbcf8450f318, type: 3}
   _matchAngle: 0
   _matchScale: 1

@@ -14,7 +14,7 @@ public class HitJudge : MonoBehaviour
 
 			float diff = Mathf.DeltaAngle(currentZ, _data.MatchAngle);
 
-			if (Mathf.Abs(diff) < 1.0f && Mathf.Approximately(scaleX, _data.MatchScale))
+			if (Mathf.Abs(diff) < 1.0f)
 			{
 				_isHit = true;
 				

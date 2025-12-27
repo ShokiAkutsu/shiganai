@@ -35,6 +35,7 @@ public class Shooting : MonoBehaviour
 	/// </summary>
 	void SetBullet()
 	{
+		if(_activeBullet) _activeBullet.transform.parent = null;
 		_activeBullet = Instantiate(_shiBullet, transform);
 	}
 }
